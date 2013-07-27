@@ -9,6 +9,7 @@
     <file path="/_header.html.erb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374945076720" ignored="false" />
     <file path="/routes.rb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374944919272" ignored="false" />
     <file path="/home.html.erb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374945127009" ignored="false" />
+    <file path="/production.rb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374945902007" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +58,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.13539192">
+                <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="-4.071429">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="30" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.6333333">
                   <folding />
                 </state>
               </provider>
@@ -110,6 +120,7 @@
         <option value="$PROJECT_DIR$/bin/bundle" />
         <option value="$PROJECT_DIR$/bin/rails" />
         <option value="$PROJECT_DIR$/bin/rake" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -187,7 +198,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -696,9 +711,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.13539192">
+        <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="-4.071429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.6333333">
           <folding />
         </state>
       </provider>
