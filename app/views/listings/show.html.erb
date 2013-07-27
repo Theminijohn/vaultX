@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="span6 offset3">
+    <div class="well">
+        <p>
+          <strong>Title:</strong>
+          <%= @listing.title %>
+        </p>
+
+        <p>
+          <strong>Description:</strong>
+          <%= @listing.description %>
+        </p>
+
+        <%= link_to 'Edit', edit_listing_path(@listing) %> |
+        <%= link_to 'Back', listings_path %>
+    </div>
+  </div>
+</div>
