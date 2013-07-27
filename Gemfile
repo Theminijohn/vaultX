@@ -43,3 +43,6 @@ gem 'simple_form'
 
 # Countery Select input file for Simple Form
 gem 'country_select'
+
+# static asset serving and logging on Heroku
+gem 'rails_12factor', group: :production
