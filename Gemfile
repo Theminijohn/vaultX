@@ -46,3 +46,5 @@ gem 'country_select'
 
 # static asset serving and logging on Heroku
 gem 'rails_12factor', group: :production
+
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
