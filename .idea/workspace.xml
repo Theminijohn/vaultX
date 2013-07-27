@@ -4,7 +4,7 @@
     <list default="true" id="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" name="Default" comment="" />
     <ignored path="vaultx.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374944533242" ignored="false" />
+    <file path="/Gemfile" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374945343763" ignored="false" />
     <file path="/application.html.erb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374944872381" ignored="false" />
     <file path="/_header.html.erb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374945076720" ignored="false" />
     <file path="/routes.rb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1374944919272" ignored="false" />
@@ -57,7 +57,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="2" column="20" selection-start="65" selection-end="65" vertical-scroll-proportion="0.04513064">
@@ -70,19 +70,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="40" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
+                <state line="8" column="43" selection-start="229" selection-end="229" vertical-scroll-proportion="0.17471264">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="styles.css.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="styles.css.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="31" selection-start="53" selection-end="53" vertical-scroll-proportion="0.04303511">
+                <state line="2" column="31" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -100,13 +100,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -616,13 +616,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="40" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="21" selection-start="666" selection-end="666" vertical-scroll-proportion="0.3275862">
@@ -632,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="53" selection-end="53" vertical-scroll-proportion="0.04303511">
+        <state line="2" column="31" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -661,6 +654,13 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="20" selection-start="65" selection-end="65" vertical-scroll-proportion="0.04513064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="43" selection-start="229" selection-end="229" vertical-scroll-proportion="0.17471264">
           <folding />
         </state>
       </provider>
