@@ -36,3 +36,10 @@ end
 
 #Bootstrap
 gem 'bootstrap-sass', '~> 2.3.2.1'
+
+gem 'devise'
+
+gem 'simple_form'
+
+# Countery Select input file for Simple Form
+gem 'country_select'
