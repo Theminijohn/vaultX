@@ -7,4 +7,6 @@ class User < ActiveRecord::Base
 
 	# Rails 4 switched from using attr_accessor to something called strong parameters
 	# You can fix this problem by changing your app/controllers/applicationcontroller.rb
+
+	has_many :listings, :dependent => :destroy
 end
