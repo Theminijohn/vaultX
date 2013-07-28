@@ -48,3 +48,5 @@ gem 'country_select'
 gem 'rails_12factor', group: :production
 
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+
+gem 'aws-sdk'

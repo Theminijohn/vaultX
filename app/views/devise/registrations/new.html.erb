@@ -5,6 +5,15 @@
 
   <div class="form-inputs">
 
+    <!-- Name Field -->
+    <div class="control-group">
+      <label class="control-label">Name</label>
+      <div class="controls">
+        <%= f.input :name, :required => true, label: false %>
+        <!-- <%= f.hint 'No special characters, please!' %> -->
+      </div>
+    </div>
+
     <div class="control-group">
       <label class="control-label">Email</label>
       <div class="controls">
