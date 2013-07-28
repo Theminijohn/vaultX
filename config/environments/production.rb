@@ -78,7 +78,7 @@ Vaultx::Application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-	# Config for Amazon S3
+	# Config for Paperclip to store in S3
 	config.paperclip_defaults = {
 		:storage => :s3,
 		:s3_credentials => {
