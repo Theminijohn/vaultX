@@ -13,6 +13,7 @@ class Listing < ActiveRecord::Base
 	belongs_to :user
 
 	# Paperclip
-	has_attached_file :image
+	has_attached_file :image, :path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+										:url => "/system/:attachment/:id/:style/:filename"
 
 end
