@@ -1,0 +1,13 @@
+<% if user_signed_in?  %>
+    #Whats up Homie
+<% else %>
+
+    <div class="hero-unit">
+      <h1>Welcome! </h1>
+      <p>to Vault x Site
+      </p>
+
+      <p> <%= link_to 'Sign up now!',  new_user_registration_path,
+                      class: "btn btn-large btn-primary" %> </p>
+    </div>
+<% end %>

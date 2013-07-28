@@ -1,13 +1,10 @@
 Vaultx::Application.routes.draw do
 
-	root :to => "pages#home"
+	root :to => "listings#index"
 	get "about" => "pages#about"
 
 	resources :listings
 
   devise_for :users
-
-
-
 
 end
