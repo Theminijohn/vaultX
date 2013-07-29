@@ -1,0 +1,31 @@
+<%= number_to_currency(@listing.price, :unit => "$") %>
+
+<div>
+  <%= image_tag @listing.user.avatar.url(:avatar) %>
+</div>
+
+
+
+<p>
+  <strong>Title:</strong>
+  <%= @listing.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @listing.description %>
+</p>
+
+<p>
+  <%= @listing.price %>
+</p>
+
+
+
+<% if current_user == @listing.user %>
+    <%= link_to 'Edit', edit_listing_path(@listing), class: "btn btn-small" %>
+    <%= link_to 'Destroy', @listing, method: :delete,
+                data: { confirm: 'Are you sure?' },
+                class: "btn btn-small btn-danger"%>
+<% end %>
+<%= link_to 'Back', listings_path, class: "btn btn-small" %>

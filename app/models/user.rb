@@ -9,4 +9,9 @@ class User < ActiveRecord::Base
 	# You can fix this problem by changing your app/controllers/applicationcontroller.rb
 
 	has_many :listings, :dependent => :destroy
+
+	has_attached_file :avatar, :styles => { :medium => "300x300>",
+																					:thumb => "100x100>",
+																					:avatar => "48x48>" },
+										:default_url => "http://placehold.it/150x150&text=Missing"
 end

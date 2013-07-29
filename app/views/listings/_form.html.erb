@@ -6,7 +6,7 @@
   <div class="inputs">
 
 
-    <!-- Title Field -->
+    <!-- Image Field -->
     <div class="control-group">
       <label class="control-label">Upload an Image</label>
       <div class="controls">
@@ -27,6 +27,14 @@
       <label class="control-label">Description</label>
       <div class="controls">
         <%= f.input :description, label: false, as: :text, input_html: {rows: "3"} %>
+      </div>
+    </div>
+
+    <!-- Price Field -->
+    <div class="control-group">
+      <label class="control-label">Price</label>
+      <div class="controls">
+        <%= f.input :price, :placeholder => "0.00", label: false %>
       </div>
     </div>
 
