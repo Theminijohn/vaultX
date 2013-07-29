@@ -32,7 +32,7 @@
     <file path="/listings-show.css.scss" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1375073638794" ignored="false" />
     <file path="/20130729051510_add_price_to_listings.rb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1375076284978" ignored="false" />
     <file path="/20130729060213_add_price_to_listings.rb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1375078942208" ignored="false" />
-    <file path="/20130727183510_create_listings.rb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1375089633049" ignored="false" />
+    <file path="/20130727183510_create_listings.rb" changelist="54ee7b74-ba7c-4d3f-b032-a8d50812bfe3" time="1375090512757" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +63,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="20130727183510_create_listings.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="20130727183510_create_listings.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/db/migrate/20130727183510_create_listings.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+                <state line="10" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.21468927">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_rightside.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_rightside.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/listings/_rightside.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="45" selection-start="296" selection-end="296" vertical-scroll-proportion="0.44340724">
+                <state line="20" column="45" selection-start="296" selection-end="296" vertical-scroll-proportion="-13.571428">
                   <folding />
                 </state>
               </provider>
@@ -129,8 +129,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/styles.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/listings-show.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/listings_controller.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130727183510_create_listings.rb" />
         <option value="$PROJECT_DIR$/app/views/listings/_rightside.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130727183510_create_listings.rb" />
       </list>
     </option>
   </component>
@@ -853,16 +853,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130727183510_create_listings.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/listings/_rightside.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+        <state line="20" column="45" selection-start="296" selection-end="296" vertical-scroll-proportion="-13.571428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listings/_rightside.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130727183510_create_listings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="296" selection-end="296" vertical-scroll-proportion="0.44340724">
+        <state line="10" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.21468927">
           <folding />
         </state>
       </provider>
