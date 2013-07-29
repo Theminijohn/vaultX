@@ -3,4 +3,13 @@
     <%= @listing.title %>
   </strong>
 </p>
-<%= image_tag @listing.image %>
+
+<div>
+  <%= image_tag @listing.image %>
+</div>
+<br>
+<div>
+  <!--Simple_format for Showing HTML and line Breaks-->
+  <%= simple_format(@listing.description) %>
+</div>
+
