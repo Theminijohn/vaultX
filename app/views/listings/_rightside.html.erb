@@ -1,23 +1,32 @@
-<%= number_to_currency(@listing.price, :unit => "$") %>
 
+
+
+<!-- Listing's Price -->
+<div>
+<%= number_to_currency(@listing.price, :unit => "$") %>
+</div>
+
+<!-- Listing's User Avatar -->
 <div>
   <%= image_tag @listing.user.avatar.url(:avatar) %>
 </div>
 
+<!-- Listing's User Name -->
+<div>
+  <%= @listing.user.name %>
+</div>
 
 
+<!-- Listing's Title -->
 <p>
   <strong>Title:</strong>
   <%= @listing.title %>
 </p>
 
+<!-- Listing's Description -->
 <p>
   <strong>Description:</strong>
   <%= @listing.description %>
-</p>
-
-<p>
-  <%= @listing.price %>
 </p>
 
 

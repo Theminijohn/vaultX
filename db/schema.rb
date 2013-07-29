@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130729060213) do
+ActiveRecord::Schema.define(version: 20130729073925) do
 
   create_table "listings", force: true do |t|
     t.string   "title"
@@ -46,6 +46,11 @@ ActiveRecord::Schema.define(version: 20130729060213) do
     t.string   "avatar_content_type"
     t.integer  "avatar_file_size"
     t.datetime "avatar_updated_at"
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "userbio"
+    t.string   "country"
+    t.integer  "gender",                 default: 1
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

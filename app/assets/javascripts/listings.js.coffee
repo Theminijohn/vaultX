@@ -21,3 +21,5 @@ jQuery ->
         $('.pagination').text("Fetching more Listings...")
         $.getScript(url)
       $(window).scroll()
+
+

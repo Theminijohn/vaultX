@@ -13,11 +13,51 @@
       </div>
     </div>
 
-    <!-- Name Field -->
+    <!-- Username Field -->
     <div class="control-group">
       <label class="control-label">Name</label>
       <div class="controls">
         <%= f.input :name, label: false %>
+      </div>
+    </div>
+
+    <!-- First Name Field -->
+    <div class="control-group">
+      <label class="control-label">First Name</label>
+      <div class="controls">
+        <%= f.input :firstname, label: false %>
+      </div>
+    </div>
+
+    <!-- Last Name Field -->
+    <div class="control-group">
+      <label class="control-label">Last Name</label>
+      <div class="controls">
+        <%= f.input :lastname, label: false %>
+      </div>
+    </div>
+
+    <!-- Last Name Field -->
+    <div class="control-group">
+      <label class="control-label">Gender</label>
+      <div class="controls">
+        <%= f.select :gender, [["Not Telling", 1], ["Male", 2], ["Female", 3]], label: false %>
+      </div>
+    </div>
+
+    <!-- User Bio Field -->
+    <div class="control-group">
+      <label class="control-label">Bio</label>
+      <div class="controls">
+        <%= f.input :userbio, as: :text, input_html: { rows: "3" }, label: false %>
+      </div>
+    </div>
+
+    <!-- Country Field -->
+    <div class="control-group">
+      <label class="control-label">Location</label>
+      <div class="controls">
+        <%= f.input :country, label: false %>
       </div>
     </div>
 

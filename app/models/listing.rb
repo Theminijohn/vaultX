@@ -6,6 +6,7 @@ class Listing < ActiveRecord::Base
 
 	validates :user_id, presence: true
 
+	validates :price, presence: true
 
 
 	validates_attachment :image, presence: true,
